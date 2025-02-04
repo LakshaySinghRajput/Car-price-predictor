@@ -7,30 +7,12 @@ Our model did not perform well because the dataset was small, containing only 58
 
 Key Insights from Analysis
 
-Through extensive Exploratory Data Analysis (EDA), we identified several factors that significantly impact car prices:
+The manufacturing year of a car plays a crucial role in determining its price. There is a clear linear relationship where newer cars tend to have higher resale values, whereas older cars depreciate significantly over time. Buyers often prefer recent models, which further drives up the price of newer vehicles.
 
-Year of Manufacture & Price Relationship:
+The fuel type also has a significant impact on pricing. Diesel cars generally command higher prices due to their fuel efficiency and long-term cost savings. On the other hand, petrol cars are more common and generally more affordable, making them a popular choice for budget-conscious buyers. The data suggests that whenever a car has a diesel engine, there is a higher likelihood of an increased price.
 
-There is a linear relationship between the car's manufacturing year and its price.
-
-Newer cars tend to have a higher resale price, while older cars depreciate over time, leading to lower prices.
-
-Fuel Type Impact on Price:
-
-Diesel cars generally have higher prices compared to petrol cars.
-
-Petrol cars are more common and affordable, making them a popular choice among buyers.
-
-Whenever the fuel type is diesel, there is a higher chance of an increased price.
-
-Importance of Data Size:
-
-The dataset used for training had only 581 rows and 24 columns, which limited the model’s ability to learn complex patterns.
-
-Due to this small dataset size, the model's performance was not optimal.
-
-With a larger dataset, the model could improve significantly and provide more accurate price predictions.
+The size of the dataset greatly influences the model’s performance. The dataset used for training had only 581 rows and 24 columns, which restricted the model’s ability to capture complex pricing patterns. Due to the limited data, the model struggled to generalize well, affecting its prediction accuracy. With a larger and more diverse dataset, the model would be able to learn better relationships and improve its predictive power.
 
 Conclusion
 
-Our analysis provided deep insights into car pricing factors. However, due to data limitations, the model’s accuracy was restricted. Increasing the dataset size and incorporating more diverse data points can enhance the model’s performance and prediction reliability.
+Our analysis provided deep insights into the factors influencing car prices. However, due to data limitations, the model’s accuracy was restricted. Increasing the dataset size and incorporating more diverse data points can enhance the model’s performance and prediction reliability.
